@@ -1,0 +1,14 @@
+{
+  "rainbow-fart.disable-voice-packages": [
+    "built-in-voice-english",
+    "Pikachu"
+  ],
+  "clangd.arguments": [
+      "--clang-tidy",
+      "--all-scopes-completion",
+      "-j=12"
+//      "-std=c++11"
+  ],
+  "explorer.width": 25,
+  "explorer.quitOnOpen": true
+}
