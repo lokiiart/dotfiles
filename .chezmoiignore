@@ -1,0 +1,8 @@
+
+{{ if ne .chezmoi.os "darwin" }}
+.zshrc_darwin
+{{ end }}
+{{ if ne .chezmoi.os "linux" }}
+.zshrc_linux
+{{ end }}
+
